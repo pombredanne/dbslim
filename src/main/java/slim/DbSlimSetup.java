@@ -29,7 +29,8 @@ public class DbSlimSetup {
 
 	public static String DEFAULT_CONNECTION_POOL_NAME = "default";
 	public static int DEFAULT_CONNECTION_POOL_MIN_IDLE = 1;
-	public static int DEFAULT_CONNECTION_POOL_MAX_AXTIVE = 5;
+    public static int DEFAULT_CONNECTION_POOL_MAX_AXTIVE = 5;
+    public static int DEFAULT_WAIT_TIMEOUT = 45000;
 	
 	
 	public DbSlimSetup(
